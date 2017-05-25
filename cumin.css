@@ -1,0 +1,58 @@
+body{
+  height:800px;
+  width:10000px;
+
+background-color: #2a2b18;
+background-image:
+linear-gradient(to right, #f7eecd 0%,#f7eecd 25%,#cccccc 25%,#cccccc 50%,#ed28ed 50%,#ed28ed 50%,#ed28ed 75%,#0000ff 75%,#0000ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-size: 62.5%; 
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	padding: 20px;
+/*
+background-repeat:
+repeat-x,
+repeat-x,
+repeat;
+background-position:
+3px 5.25%,
+0 4.9%,
+top left
+;*/
+}
+
+#wrapper{
+  border:10px solid red;
+  width:800px;
+  height:10000px;
+background-image:
+linear-gradient(to right, #f7eecd 0%,#f7eecd 25%,#cccccc 25%,#cccccc 50%,#ed28ed 50%,#ed28ed 50%,#ed28ed 75%,#0000ff 75%,#0000ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+;
+}
+
+ {
+	margin: 0; 
+	padding: 0; 
+}
+
+tr { 
+	vertical-align: top;
+}
+.post { 
+	width: 500px; 
+}
+p { 
+	font-size: 1.2em; 
+	margin: 0 0 15px 0; 
+}
+h1 { 
+	font-family: Sans-serif; 
+	font-size: 4.0em;
+	letter-spacing: -1px; 
+	color: #ccc; 
+}
+h2 { 
+	font-family: Sans-serif; 
+	font-size: 3.0em;
+	letter-spacing: -1px; 
+	color: #ccc; 
+}
