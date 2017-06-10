@@ -8,40 +8,35 @@ $(document).ready(function(){
    console.log(fromTop);
     
    $("#fallingphil").css({
-     "top" : 100 + fromTop * 1.1 +"px"
+     "top" : 100 + fromTop * 1.05 +"px"
    });
   
     
-    if(fromTop > 3000 ){
-       // if we have scrolled MORE than 3000 pixels use this image
-         
-      $("#wrapper").css({"border":"10px solid green"});
-      $("body").css({"background-color":"pink"});
-      
-      
+    if(fromTop > 2000 ){
+       // if we have scrolled MORE than 2000 pixels use this image
       
       $("#fallingphil").css({
-           "background-image" : "url('img/phil1.5.png')"
+           "background" : "url('img/phil1.5.png')"
            });
-     
-      $("#mainimage").text("mar. 29, 2010");
       
       
-    } else if(fromTop > 6000){
+    } else if(fromTop > 5100){
     
-    // do something else crazy
+     $("#fallingphil").css({
+           "background" : "url('img/phil2.png')"
+           });
     
     }
     else {
       // else if we have scrolled LESS than 3000 pixels use this image
       
-      $("#wrapper").css({"border":"1px solid black"});
-      $("body").css({"background-color":"white"});
+      //$("#wrapper").css({"border":"1px solid black"});
+      //$("body").css({"background-color":"white"});
       
-      $("#mainimage").css({
-         "background-image" : "url('http://www.freepngimg.com/thumb/kitten/2-2-kitten-free-download-png-thumb.png')"
+      $("#fallingphil").css({
+         "background" : "url('img/phil.png')"
        });
-      $("#mainimage").text("https://jsbin.com/yibujax/3/edit?js,output");
+     // $("#fallingphil").text("https://jsbin.com/yibujax/3/edit?js,output");
       
       
     }//end if statement
