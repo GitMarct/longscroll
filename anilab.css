@@ -1,0 +1,82 @@
+/***** ***** ***** ***** *****
+body{
+  height:10000px;
+
+background-image:
+url("http://lostworldsfairs.com/atlantis/img/bg_frontwave.png"),
+url("http://lostworldsfairs.com/atlantis/img/imonaship.png"),
+url("http://lostworldsfairs.com/atlantis/img/bg_backwave.png"),
+linear-gradient(to bottom, #32defc 0%,#59e4f9 5%,#acdfe8 5%,#19222D 100%)
+;
+
+background-repeat:
+repeat-x,
+no-repeat,
+repeat-x,
+repeat;
+background-position:
+3px 5.25%,
+300px 3.85%,
+0 4.9%,
+top left
+;
+animation: 10s waves ease-in-out infinite;
+}
+
+@keyframes waves {
+  50%{
+    background-position:
+    100px 5.25%,
+    305px 3.9%,
+    -100px 4.9%,
+    top left
+    ;
+  }
+}
+***** ***** ***** ***** *****/
+
+body{
+  height:10000px;
+
+background-image:
+linear-gradient(to bottom, #154591 0%, #7facf4 100%)
+;
+
+background-repeat:
+repeat;
+background-position:
+top left;
+
+}
+
+.vert_parallax{
+  position:fixed;
+  top:0;
+  width: 300px;
+  height: 100px;
+  background-color:#0000ff;
+  left:40%;
+  color:white;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.6;
+}
+
+#parallax_wrap{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+/*
+#wrapper{
+  border:0 solid red;
+  width:800px;
+  height:10000px;
+  background-repeat: no-repeat;
+  background-position: 0 400px;
+}
+*/
