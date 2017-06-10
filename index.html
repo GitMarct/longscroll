@@ -1,34 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Anilab</title>
-    <link rel="stylesheet" href="anilab.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="This is a website made by Marc Vicente. It's currently used in Cal State East Bay as the fourth project in Ian Pollock's ART3870-Web Authoring class.">
+    <title>Phil's Fall</title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="icon" href="img/MXemblemfavicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="longscroll.css">
   </head>
   <body>
 <h1>This is Phil. Unfortunately, he's falling from the sky for some reason. Scroll down to see his fate!</h1>
-<div class="vert_parallax">Phil</div>
-<div class="dragon">dragon</div>
+<h1 id="fallingphil"></h1>
+<!-- <div class="dragon">dragon</div>
 <div class="airplane">airplane</div>
 <div class="building 1">building1</div>
 <div class="building 2">building2</div>
 <div class="vert_parallax">clothes front</div>
 <div class="vert_parallax">clothes back</div>
 <div class="vert_parallax">clothesline</div>
-<div class="vert_parallax">cake</div>
+<div class="vert_parallax">cake</div> -->
 
     <div id="wrapper">
+    <h1 id="fallingphil"></h1>
     </div>
 
-    <script type="text/javascript">
+   <!-- <script type="text/javascript">
       $(window).scroll(function() {
         $("div.vert_parallax").css({
             "top": ($(window).scrollTop()*0.75) + "px"
         }).text("Regular:"+ $(window).scrollTop());
     });
-    </script>
+    </script> -->
 
-    <script type="text/javascript" src="anilab.js">
+    <script type="text/javascript" src="longscroll.js">
     </script>
-  </body>
+<footer>
+  <h4> &copy; 2017  <a href="https://gitmarct.github.io/art3870s17/" target="_blank"> Marc Vicente</a></h4>
+</footer>
+</body>
 </html>

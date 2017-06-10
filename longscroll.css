@@ -51,10 +51,10 @@ top left;
 
 .vert_parallax{
   position:fixed;
-  top:0;
-  width: 300px;
-  height: 100px;
-  background-color:#0000ff;
+ 
+  width: 718px;
+  height: 317px;
+  background: url('img/phil.png')0 0;
   left:40%;
   color:white;
   text-align: center;
@@ -62,14 +62,26 @@ top left;
   opacity: 0.6;
 }
 
+#fallingphil{
+  position:absolute;
+  width: 718px;
+  height: 317px;
+  background: url('img/phil.png')0 0;
+  
+  top:100px;
+  
+  left:50%;
+  margin-left:-100px;}
+
 #parallax_wrap{
   height: 100%;
   width: 100%;
   background-color: red;
 }
 
-h1 {
+h1, h4{
   text-align: center;
+  font-family:'Oswald', sans-serif;
 }
 /*
 #wrapper{
