@@ -14,8 +14,8 @@
   <body>
 <h1>This is Phil. Unfortunately, he's falling from the sky for some reason. Scroll down to see his fate!</h1>
 <!-- make smaller pngs-- >
-<!-- <div class="dragon">dragon</div>
-<div class="airplane">airplane</div>
+
+<!--<div class="airplane">airplane</div>
 <div class="building 1">building1</div>
 <div class="building 2">building2</div>
 <div class="vert_parallax">clothes front</div>
@@ -25,6 +25,7 @@
 
     <div id="wrapper">
     <h1 id="fallingphil"></h1>
+    <div id="dragon"></div>
     </div>
 
    <!-- <script type="text/javascript">
@@ -34,6 +35,14 @@
         }).text("Regular:"+ $(window).scrollTop());
     });
     </script> -->
+    
+    <script type="text/javascript">
+	$(window).scroll(function() {
+    $("div#dragon").css({
+        "left": $(window).scrollTop() + "px"
+    });
+});
+</script>
 
     <script type="text/javascript" src="longscroll.js">
     </script>

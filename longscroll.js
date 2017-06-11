@@ -8,7 +8,7 @@ $(document).ready(function(){
    console.log(fromTop);
     
    $("#fallingphil").css({
-     "top" : 100 + fromTop * 1.05 +"px"
+     "top" : 100 + fromTop * 1.03 +"px"
    });
   
     
