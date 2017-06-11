@@ -37,9 +37,10 @@ animation: 10s waves ease-in-out infinite;
 
 body{
   height:10000px;
-background-image:
+/*background-image:
 linear-gradient(to bottom, #154591 0%, #7facf4 100%)
-;
+;*/
+background-image: url('img/fullbg.png');
 background-repeat:
 repeat;
 background-position:
@@ -60,28 +61,42 @@ top left;
     position:fixed;
   width:2195px;
   height:800px;
-  top:0px;
+  top:-200px;
    background: url('img/dragon.png')0 0;
   margin-left:-2500px;
 }
 
-
-#parallax_wrap{
-  height: 100%;
-  width: 100%;
-  background-color: red;
+  #airplane{
+    position:fixed;
+  width:1886px;
+  height:1000px;
+  top:-100px;
+   background: url('img/airplane.png')0 0;
+  margin-right:-5000px;
 }
 
-h1, h4{
+ #clothes{
+	position:absolute;
+  width:978px;
+  height:1100px;
+   background: url('img/clothesfront.png')0 0;
+ top:7500px;
+  margin-left:100px;
+}
+
+ #cake {
+    position:absolute;
+  width:956px;
+  height:600px;
+   background: url('img/cake.png')0 0;
+ top:9426px;
+  margin-left:100px;
+}
+
+
+
+h1, h4 {
   text-align: center;
+  color:#ededed;
   font-family:'Oswald', sans-serif;
 }
-/*
-#wrapper{
-  border:0 solid red;
-  width:800px;
-  height:10000px;
-  background-repeat: no-repeat;
-  background-position: 0 400px;
-}
-*/

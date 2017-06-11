@@ -13,19 +13,19 @@
   </head>
   <body>
 <h1>This is Phil. Unfortunately, he's falling from the sky for some reason. Scroll down to see his fate!</h1>
-<!-- make smaller pngs-- >
 
 <!--<div class="airplane">airplane</div>
 <div class="building 1">building1</div>
 <div class="building 2">building2</div>
-<div class="vert_parallax">clothes front</div>
-<div class="vert_parallax">clothes back</div>
-<div class="vert_parallax">clothesline</div>
+<div id="clothes"></div>
 <div class="vert_parallax">cake</div> -->
 
     <div id="wrapper">
-    <h1 id="fallingphil"></h1>
+    <div id="fallingphil"></div>
     <div id="dragon"></div>
+    <div id="airplane"></div>
+    <div id="clothes"></div>
+    <div id="cake"></div>
     </div>
 
    <!-- <script type="text/javascript">
@@ -43,11 +43,18 @@
     });
 });
 </script>
+<script type="text/javascript">
+	$(window).scroll(function() {
+    $("div#airplane").css({
+        "right": $(window).scrollTop() + "px"
+    });
+});
+</script>
 
     <script type="text/javascript" src="longscroll.js">
     </script>
 <footer>
-  <h4> &copy; 2017  <a href="https://gitmarct.github.io/art3870s17/" target="_blank"> Marc Vicente</a></h4>
+  <h4> &copy; 2017 Marc Vicente</h4>
 </footer>
 </body>
 </html>
